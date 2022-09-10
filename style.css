@@ -1,0 +1,47 @@
+body {
+	background: aqua;
+	font-family: arial;
+	
+
+}
+
+.one	{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.two {
+	text-align: center;
+}
+
+.three{
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 50px 0px;
+}
+
+ul{
+	list-style-type:none;
+	height: 70px;
+	background-color: darkgrey;
+}
+
+
+li{
+	display: inline-block;
+	text-align: center;
+	width: 90px;
+	height: 40px;
+	line-height: 15px;
+	color: pink;
+}
+
+li:hover{
+background:yellow;
+}
+
+li:link{
+	color:green;
+}
